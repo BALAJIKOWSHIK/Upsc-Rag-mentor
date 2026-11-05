@@ -1,0 +1,17 @@
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Secrets and local config (Never push keys!)
+.streamlit/
+.env
+
+# Local database and cache
+query_cache.db
+__pycache__/
+*.pyc
+
+# Local source documents
+docs/
+*.pdf
